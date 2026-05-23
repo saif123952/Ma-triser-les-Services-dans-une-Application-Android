@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F0F4F8"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/displayTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="#2C3E50"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/launchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lancer le suivi"
+        android:backgroundTint="#27AE60"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/terminateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrêter le suivi"
+        android:backgroundTint="#C0392B"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
