@@ -15,9 +15,7 @@ Pour ce laboratoire, une attention particulière a été portée sur l'originali
 - **Variables métier** : Utilisation de termes comme `elapsedSeconds`, `monitorConnection`, `ServiceControl`.
 - **Interface Utilisateur** : Design personnalisé avec un jeu de couleurs spécifique (Vert pour démarrer, Rouge pour arrêter) et un affichage en gras.
 
-## Démonstration
-![Aperçu de l'application](screenshot.png)
-*(Note : Remplacer 'screenshot.png' par une capture d'écran réelle de l'émulateur)*
+
 
 ## Conclusion
 Ce travail a permis de comprendre le cycle de vie des services Android, l'importance des notifications pour les processus de premier plan et la manipulation des `Binder` pour la communication inter-composants.
